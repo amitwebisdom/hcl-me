@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  font-family:Arial, Helvetica, sans-serif;
+  position: relative;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+
+}
+
+h2 {
+  margin: 1.75em 0 0;
+  font-size: 5vw;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+h3 { font-size: 1.3em; font-family:Arial, Helvetica, sans-serif; }
+
+.v-center {
+  height: 100vh;
+  width: 100%;
+  display: table;
+  position: relative;
+  text-align: center;
+}
+
+.v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  top: -10%;
+}
+
+.btn {
+  font-size: 3vmin;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  display: inline;
+  border-radius: 4px;
+  -webkit-transition: background-color 1s ease;
+  -moz-transition: background-color 1s ease;
+  transition: background-color 1s ease;
+  cursor:pointer;
+}
+
+.btn:hover {
+
+}
+
+.btn-small {
+  padding: .75em 1em;
+  font-size: 0.8em;
+}
+
+.modal-box {
+  display: none;
+  position:fixed;
+  z-index: 1000;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+  background-color:#000;
+  z-index:9999999;
+
+  
+}
+
+.modal-box .modal-body p { color:#fff; text-align:justify; font-size:13px;  font-family:Arial, Helvetica, sans-serif;}
+
+.fixed {
+	width:100%;
+	height:100%;
+	position:fixed;
+	
+}
+
+.modal-body h1.awardsHead{
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: 600;
+}
+
+.modal-body h1.trable{
+	text-transform: uppercase;
+	font-size: 19px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.modal-body h1.awardsHead span{
+	background: #f6821f;
+}
+
+.modal-body .awardsOuter{
+    float: left;
+    width: 100%;
+	padding: 5px;
+}
+.modal-body .ourAwards {
+    float: left;
+    margin: 15px 1.5%;
+    text-align: center;
+    width: 30%;
+}
+.modal-box .modal-body .ourAwards .center-align{
+	text-align: center;
+}
+.highlighted{
+	color: #f6821f;
+}
+.durationPeriod{
+	width: 100%;
+	float: left;
+	text-align: right;
+	margin-bottom: 10px;
+}
+.xperienceMargin a{
+	color: #5591fe;
+    display: inline-block;
+    margin: 0;
+    text-decoration: underline;
+}
+.modal-body table tr:nth-of-type(2n+1) td{
+	text-align: center;
+}
+table td.center{
+	text-align: center;
+}
+table td p.address{
+	text-align: center !important;
+}
+table td:nth-of-type(2){
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+
+@media only screen and (max-width: 47.8em) {
+	.modal-body .ourAwards{
+		width: 100%;
+		margin: 15px 0;
+	}
+	.modal-box .modal-body{
+		height: 400px;
+		overflow: auto;
+	}
+	.modal-body table tr td{
+		width: 100%;
+		float: left;
+	}
+	table td:nth-of-type(2){
+		border: 0;
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		padding: 10px 0;
+	}
+}
+
+@media (min-width: 32em) {
+
+.modal-box { width: 60%; z-index:9999999;}
+}
+
+.modal-box header,
+.modal-box .modal-header {
+  padding: 1em 1.5em;
+  border-bottom: 1px solid #fff;
+  width:76%;
+  margin:0 auto;
+}
+
+.modal-box header h3,
+.modal-box header h4,
+.modal-box .modal-header h3,
+.modal-box .modal-header h4 { margin: 0 a; color:#fff; font-size:1.7em; text-align:center; }
+
+.modal-box .modal-body { padding: 1.3em 1.5em; width:76%; margin: 0 auto;height:300px; }
+
+.modal-box .modal-body p { color:#fff; text-align:justify; font-size:14px;  font-family:Arial, Helvetica, sans-serif;}
+.modal-box .modal-body p.centerImg{
+	text-align: center;
+}
+.modal-box .modal-body p.centerImg img{
+	max-width: 67%;
+}
+
+.modal-box footer,
+.modal-box .modal-footer {
+  padding: 1em;
+  border-top: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.02);
+  text-align: right;
+}
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3) !important;
+  cursor:pointer;
+}
+
+
+span.close {
+  font-size: 1.5em;
+  position: absolute;
+  text-decoration: none;
+  color: #000;
+  cursor:pointer;
+  font-size: 1.5em;
+    height: 28px;
+    position: absolute;
+    right: 2%;
+    text-align: center;
+    text-decoration: none;
+    top: 5%;
+    width: 30px;
+	border-radius:50px;
+	font-weight:bold;
+	line-height:28px;
+	background-color:#FFF;
+
+}
+
+span.close:hover {
+  color: #fff;
+   cursor:pointer;
+  -webkit-transition: color 1s ease;
+  -moz-transition: color 1s ease;
+  transition: color 1s ease;
+  background-color:#f58220;
+}
+
+
+
+
+

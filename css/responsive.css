@@ -1,0 +1,1256 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width : 1024px) {
+	
+#spopup{
+	
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 10%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/tabs/001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+    margin: 0% 30%;
+    max-width: 35%;
+}
+
+}
+
+@mediay screen and (max-width : 800px) {
+	
+#spopup{
+	
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 10%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+#layer0 h1 {
+	background-image: url("../images/me_001_800.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/l-tab-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+}
+
+
+@media screen and (max-width : 768px) {
+
+#spopup{
+	
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 8%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/me_001_768.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+        margin: 0% 30%;
+    max-width: 40%;
+}
+}
+
+@media screen and (max-width : 736px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 8%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+	background-image: url("../images/mob_land/001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/tabs/03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+    margin: 0% 33%;
+    max-width: 30%;
+}
+}
+
+
+@media screen and (max-width : 667px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 9%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 2%;
+    transition: opacity500ms 0s ease 0s;
+    width: 97%;
+    z-index: 9999;
+}
+.mg-image img {
+    margin: 0 5% 5% 40%;
+    transition: all 2s ease 0s;
+}
+
+#layer0 h1 {
+	background-image: url("../images/mob_land/001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+    margin: 0% 40%;
+    max-width: 14%;
+}
+
+
+}
+
+
+@media screen and (max-width : 600px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 9%;
+    padding: 0;
+    position: fixed;
+    width: 80%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 2%;
+    transition: opacity500ms 0s ease 0s;
+    width: 97%;
+    z-index: 9999;
+}
+
+
+#layer0 h1 {
+	background-image: url("../images/mob_land/001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+        margin: 0% 38%;
+    max-width: 22%;
+}
+
+}
+
+@media screen and (max-width : 568px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 2%;
+    transition: opacity500ms 0s ease 0s;
+    width: 97%;
+    z-index: 9999;
+}
+
+
+#layer0 h1 {
+	background-image: url("../images/mob_land/001.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/01_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/02.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/02_1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/mob_land/03.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.popup-white-box p {
+    border: 2px solid #1b86b2;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 2px;
+    text-align: justify;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+    margin: 0% 43%;
+    max-width: 13%;
+}
+
+}
+
+@media screen and (max-width : 533px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+
+}
+
+@media screen and (max-width : 480px) {
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+}
+
+@media screen and (max-width : 414px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 5%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+   float: left;
+    font-size: 12px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 63%;
+    position: absolute;
+    text-align: justify;
+    width: 45%;
+}
+
+
+#spopup .marquee marquee {
+
+    height: auto;
+
+}
+#layer0 h1 {
+    background-color: transparent;
+    background-image: url("../images/me_001_414.png");
+    background-repeat: no-repeat;
+     background-size: 414px 100%;
+	width:414px;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-01.png");
+    background-repeat: no-repeat;
+     background-size: 414px 100%;
+	width:414px;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-01_1.png");
+    background-repeat: no-repeat;
+     background-size: 414px 100%;
+	width:414px;
+}
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-02.png");
+    background-repeat: no-repeat;
+     background-size: 414px 100%;
+	width:414px;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-02_1.png");
+    background-repeat: no-repeat;
+     background-size: 414px 100%;
+	width:414px;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-03.png");
+    background-repeat: no-repeat;
+    background-size: 414px 100%;
+	width:414px;
+}
+
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0%;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 999999999;
+}
+
+.mg-image img 
+{
+   -webkit-transition: all 2s ease;
+    margin: 0% 29%;
+    max-width: 40%;
+}
+
+}
+
+@media screen and (max-width : 384px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 80%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+#layer0 h1 {
+    background-color: transparent;
+    background-image: url("../images/me_001_375.png");
+    background-repeat: no-repeat;
+     background-size: 384px 100%;
+	width:384px;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-01.png");
+    background-repeat: no-repeat;
+     background-size: 384px 100%;
+	width:384px;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-01_1.png");
+    background-repeat: no-repeat;
+     background-size: 384px 100%;
+	width:384px;
+}
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-02.png");
+    background-repeat: no-repeat;
+     background-size: 384px 100%;
+	width:384px;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-02_1.png");
+    background-repeat: no-repeat;
+     background-size: 384px 100%;
+	width:384px;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/lx-03.png");
+    background-repeat: no-repeat;
+     background-size: 384px 100%;
+	width:384px;
+}
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0%;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 999999999;
+}
+
+.popup-white-box p {
+    border: 2px solid #df4530;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+.mg-image img {
+    margin: 5% 25%;
+    max-width: 50%;
+    transition: all 2s ease 0s;
+}
+
+}
+
+
+
+
+@media screen and (max-width : 375px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 80%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+
+#layer0 h1 {
+    background-color: transparent;
+    background-image: url("../images/me_001_375.png");
+    background-repeat: no-repeat;
+     background-size: 375px 100%;
+	width:375px;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01.png");
+    background-repeat: no-repeat;
+    background-size: 375px 100%;
+	width:375px;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01_1.png");
+    background-repeat: no-repeat;
+     background-size: 375px 100%;
+	width:375px;
+}
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02.png");
+    background-repeat: no-repeat;
+     background-size: 375px 100%;
+	width:375px;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02_1.png");
+    background-repeat: no-repeat;
+     background-size: 375px 100%;
+	width:375px;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-03.png");
+    background-repeat: no-repeat;
+     background-size: 375px 100%;
+	width:375px;
+}
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0%;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 999999999;
+}
+
+
+.popup-white-box p {
+    border: 2px solid #df4530;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+.mg-image img {
+    margin: 5% 25%;
+    max-width: 50%;
+    transition: all 2s ease 0s;
+}
+
+}
+
+
+
+
+@media screen and (max-width : 360px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+#layer0 h1 {
+    background-color: transparent;
+    background-image: url("../images/me_001_320.png");
+    background-repeat: no-repeat;
+     background-size: 360px 100%;
+	width:360px;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01.png");
+    background-repeat: no-repeat;
+     background-size: 360px 100%;
+	width:360px;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-01_1.png");
+    background-repeat: no-repeat;
+     background-size: 360px 100%;
+	width:360px;
+}
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02.png");
+    background-repeat: no-repeat;
+    background-size: 360px 100%;
+	width:360px;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-02_1.png");
+    background-repeat: no-repeat;
+     background-size: 360px 100%;
+	width:360px;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/ap-03.png");
+    background-repeat: no-repeat;
+    background-size: 360px 100%;
+	width:360px;
+}
+
+.popup-white-box p {
+    border: 2px solid #df4530;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+.mg-image img {
+    margin: 5% 25%;
+    max-width: 50%;
+    transition: all 2s ease 0s;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width : 320px) {
+
+#spopup{
+	
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    bottom: 10%;
+    box-sizing: border-box;
+    display: none;
+    height: 90%;
+    left: 4%;
+    padding: 0;
+    position: fixed;
+    width: 90%;
+    z-index: 90;
+	
+}
+
+.popup-white-box p {
+    border: 2px solid #df4530;
+    border-radius: 10px;
+    color: #000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 15px;
+    margin-bottom: 0;
+    padding: 5px;
+    text-align: justify;
+}
+
+#spopup .marquee {
+    float: left;
+    font-size: 12px;
+    height: 37%;
+    margin-left: 20%;
+    margin-top: 55%;
+    position: absolute;
+    text-align: justify;
+    width: 67%;
+}
+#layer0 h1 {
+    background-color: transparent;
+    background-image: url("../images/me_001_320.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+
+#layer1 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-01.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+
+#layer2 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-01_1.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+#layer3 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-02.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+#layer4 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-02_1.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+
+#layer5 h1 {
+    background-color: transparent;
+    background-image: url("../images/m-03.png");
+    background-repeat: no-repeat;
+    background-size: 320px 100%;
+	width:320px;
+}
+
+.frequentPopup-Outer {
+    bottom: 7%;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 0%;
+    transition: opacity500ms 0s ease 0s;
+    width: 100%;
+    z-index: 999999999;
+}
+.mg-image img {
+    margin: 5% 25%;
+    max-width: 50%;
+    transition: all 2s ease 0s;
+}
+
+
+}
+
+
